@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BDD example</description>
+   <name>TC1_EA_Login - DataDriven - Code Enhanced</name>
+   <tag>BDD</tag>
+   <comment></comment>
+   <testCaseGuid>824aae25-9003-4fa1-be8b-4fcb23a7e85d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de89eb50-2b68-4d2d-9f45-a031b67f6afe</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53db1d74-0f32-4ecf-b385-2ca80ca9bd22</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4d7d725-8e6b-48e4-b484-69bd1c25c83e</id>
+      <masked>false</masked>
+      <name>initial</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e4f33db-3963-4a9c-8d92-d6bf08f9e618</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8d762dd-f710-4fa7-942d-8bffcc6e97ef</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b17dc7ad-e905-4ba0-9b2f-c3dc08b1f203</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+</TestCaseEntity>

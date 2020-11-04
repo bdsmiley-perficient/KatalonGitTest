@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BDD example</description>
+   <name>TC1_EA_Login</name>
+   <tag>BDD</tag>
+   <comment></comment>
+   <testCaseGuid>42ea2424-7680-404a-be66-4e4ae155c118</testCaseGuid>
+   <variable>
+      <defaultValue>'&quot;test&quot;'</defaultValue>
+      <description></description>
+      <id>1cca9fc3-1807-4c97-8983-215fdeffabb5</id>
+      <masked>false</masked>
+      <name>myVar</name>
+   </variable>
+</TestCaseEntity>
