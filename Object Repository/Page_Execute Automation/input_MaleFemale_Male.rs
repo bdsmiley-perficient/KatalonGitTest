@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_MaleFemale_Female</name>
+   <name>input_MaleFemale_Male</name>
    <tag></tag>
-   <elementGuidId>226037b7-1f11-4298-9df7-5b6276eb5cbc</elementGuidId>
+   <elementGuidId>5482612f-8313-48bc-83fc-b0cc9a579627</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'Male' and @type = 'radio']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@name='Male']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>input[name=&quot;Female&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='Female']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Male</value>
+      <value>Female</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='Male']</value>
+      <value>//input[@name='Female']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

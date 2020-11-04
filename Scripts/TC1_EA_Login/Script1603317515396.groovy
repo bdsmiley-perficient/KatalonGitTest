@@ -25,15 +25,25 @@ WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Lo
 
 WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_Login_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Initial_Initial'), findTestData('Data Files/New Test Data').getValue(
-        1, 1))
 
-WebUI.setText(findTestObject('Page_Execute Automation/input__FirstName'), findTestData('Data Files/New Test Data').getValue(
-        2, 1))
+
+WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Initial_Initial'), findTestData('EA/EA_TestData').getValue(
+        'Initial', 1))
+
+WebUI.setText(findTestObject('Page_Execute Automation/input__FirstName'), findTestData('EA/EA_TestData').getValue('FirstName', 
+        1))
 
 WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Middle Name_MiddleName'), 'Last')
 
-WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_MaleFemale_Female'))
+gender = findTestData('EA/EA_TestData').getValue('Gender', 1)
+
+if (gender=="Male"){
+	WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_MaleFemale_Female'))
+}else{
+ WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_MaleFemale_Male'))
+}
+
+
 
 WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_EnglishHindi_Save'))
 

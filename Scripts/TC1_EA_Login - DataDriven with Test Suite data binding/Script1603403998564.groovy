@@ -39,6 +39,11 @@ WebUI.setText(findTestObject('Page_Execute Automation/input__FirstName'), firstn
 
 WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Middle Name_MiddleName'), lastname)
 
+
+WebUI.setText(findTestObject('Page_Execute Automation/input__FirstName'), findTestData('Data Files/New Test Data').getValue(
+	2, 1))
+
+
 WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_MaleFemale_Female'))
 
 WebUI.click(findTestObject('Object Repository/Page_Execute Automation/input_EnglishHindi_Save'))
